@@ -2,9 +2,11 @@ import java.io.File
 import javax.inject.Inject
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.ConfigurableFileCollection
+import org.gradle.api.file.DuplicatesStrategy
 import org.gradle.api.file.RegularFileProperty
 import org.gradle.api.tasks.CacheableTask
 import org.gradle.api.tasks.Classpath
+import org.gradle.api.tasks.Copy
 import org.gradle.api.tasks.InputFile
 import org.gradle.api.tasks.Optional
 import org.gradle.api.tasks.OutputFile
@@ -13,6 +15,7 @@ import org.gradle.api.tasks.PathSensitivity
 import org.gradle.api.tasks.TaskAction
 import org.gradle.api.tasks.testing.Test
 import org.gradle.jvm.tasks.Jar
+import org.gradle.language.jvm.tasks.ProcessResources
 import org.gradle.process.ExecOperations
 
 @CacheableTask
@@ -186,6 +189,13 @@ dependencies {
 }
 
 tasks {
+    withType<ProcessResources>().configureEach {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+    withType<Copy>().configureEach {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+
     val verifyGboardCapabilityWiring = register<JavaExec>("verifyGboardCapabilityWiring") {
         description = "Fails packaging when admitted Gboard contributions are not wired."
         dependsOn("compileKotlin")
