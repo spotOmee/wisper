@@ -155,8 +155,7 @@ jobs:
           TAG="v1.0.0-build-${{ github.run_number }}"
           gh release create "$TAG" final-apk/* \
             --title "wisper APK Build #${{ github.run_number }}" \
-            --notes "Automated wisper Android build #${{ github.run_number }}. Verified and ready for installation." \
-            --clobber || true
+            --notes "Automated wisper Android build #${{ github.run_number }}. Verified and ready for installation."
           echo "release_url=https://github.com/${{ github.repository }}/releases/tag/${TAG}" >> $GITHUB_OUTPUT
 
       - name: Deliver APK to Telegram (Auto-Bypass 50 MB Limit)
