@@ -4,7 +4,7 @@
     android:height="108.0dp"
     android:viewportWidth="108.0"
     android:viewportHeight="108.0">
-    <!-- PixelBoard Speech Bubble, Microphone & Keyboard (Material You Themed Icon) -->
+    <!-- wisper Speech Bubble, Microphone & Keyboard (Material You Themed Icon) -->
     <path
         android:fillColor="#ffffff"
         android:fillType="evenOdd"

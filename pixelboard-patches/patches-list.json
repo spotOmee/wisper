@@ -74,8 +74,9 @@
           "description": "",
           "required": true,
           "type": "kotlin.String",
-          "default": "PixelBoard",
+          "default": "wisper",
           "values": {
+            "wisper": "wisper",
             "PixelBoard": "PixelBoard",
             "Gboard": "Gboard",
             "Gboard Dev": "Gboard Dev",

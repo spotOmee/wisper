@@ -506,7 +506,7 @@ internal fun applyPixelboardStringsOverride() = with(context) {
             }
         }
 
-        val localizedUpdatesTitle = UPDATES_TITLE_TRANSLATIONS[lang] ?: "PixelBoard updates"
+        val localizedUpdatesTitle = UPDATES_TITLE_TRANSLATIONS[lang] ?: "wisper updates"
         if (!text.contains("name=\"pixelboard_patches_updates_title\"")) {
             val endResourcesIndex = text.lastIndexOf("</resources>")
             if (endResourcesIndex >= 0) {
@@ -564,9 +564,9 @@ internal fun Element.setAndroidAttribute(localName: String, value: String) {
     }
 }
 
-internal const val PIXELBOARD_SETTINGS_TITLE = "PixelBoard Settings"
-internal const val PIXELBOARD_SPELL_CHECKER_LABEL = "PixelBoard Spell Checker"
-internal const val PIXELBOARD_SPELL_CHECKER_SETTINGS_LABEL = "PixelBoard Spell Checker Settings"
+internal const val PIXELBOARD_SETTINGS_TITLE = "wisper Settings"
+internal const val PIXELBOARD_SPELL_CHECKER_LABEL = "wisper Spell Checker"
+internal const val PIXELBOARD_SPELL_CHECKER_SETTINGS_LABEL = "wisper Spell Checker Settings"
 internal const val GBOARD_SETTINGS_ACTIVITY_CLASS =
     "com.google.android.apps.inputmethod.latin.preference.SettingsActivity"
 internal const val GBOARD_SPELL_CHECKER_SERVICE_CLASS =

@@ -73,7 +73,7 @@ class GboardPackageRenameTransformTest {
     fun `application display name accepts safe unicode and rejects unsafe values`() {
         listOf(
             "Gboard Dev",
-            "PixelBoard Keyboard",
+            "wisper Keyboard",
             "Keyboard 🚀",
             "x".repeat(MAX_GBOARD_APP_DISPLAY_NAME_CODE_POINTS),
         ).forEach { value ->
@@ -607,7 +607,7 @@ class GboardPackageRenameTransformTest {
     }
 
     @Test
-    fun `applyGboardPatchesSettings applies PixelBoard branding to spell checker and settings`() {
+    fun `applyGboardPatchesSettings applies wisper branding to spell checker and settings`() {
         val manifest = loadManifest()
         val settings = loadSettingsDocuments()
 

@@ -1,11 +1,11 @@
 <div align="center">
 
-# PixelBoard
+# wisper
 
 **Supercharged Gboard Mod featuring Google Pixel 11 series's Rambler Voice Typing & AI Writing Assistant [No Root].**
 
 <p>
-  <a href="https://github.com/Akshayykadam/PixelBoard/releases/tag/1.3.6">
+  <a href="https://github.com/spotOmee/wisper/releases/tag/1.3.6">
     <img src="https://img.shields.io/badge/Release-v1.3.6-8A2BE2?style=flat-square&logo=github&logoColor=white" alt="Latest Release"/>
   </a>
   <img src="https://img.shields.io/badge/Android-10%20to%2017-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android Support"/>
@@ -17,11 +17,11 @@
 
 <!-- Primary Action: 1-Click Direct Download Links -->
 <p>
-  <a href="https://github.com/Akshayykadam/PixelBoard/releases/download/1.3.6/PixelBoard-1.3.6.apk">
+  <a href="https://github.com/spotOmee/wisper/releases/download/1.3.6/wisper-1.3.6.apk">
     <img src="https://img.shields.io/badge/⚡_1--Click_Download_(APK)-v1.3.6_(122_MB)-00C853?style=for-the-badge&logo=android&logoColor=white" height="44" alt="Download Ready-to-Install APK"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Akshayykadam/PixelBoard/releases/download/1.3.6/patches-1.3.6.mpp">
+  <a href="https://github.com/spotOmee/wisper/releases/download/1.3.6/patches-1.3.6.mpp">
     <img src="https://img.shields.io/badge/📦_Morphe_Patch_(.mpp)-v1.3.6_(1.7_MB)-2979FF?style=for-the-badge&logo=android&logoColor=white" height="44" alt="Download Morphe Patch Bundle"/>
   </a>
 </p>
@@ -32,16 +32,16 @@
 
 ## Overview
 
-**PixelBoard** is a sleek, ultra-clean enhancement of Google's flagship keyboard. Tailored for pure productivity, PixelBoard strips away unnecessary bloatware and focuses strictly on powerhouse capabilities: **Gemini Rambler Natural Voice Dictation**, **AI Writing Assistant**, **Modern Spell Checker Suggestion Chips & Grammar Checking**, **Scan Text Camera OCR**, **Screenshot Floating Suggestions**, **Material 3 Expressive Rounded Keys**, **Google Sans Flex Keycap Typography**, **Proactive Undo in Suggestion Strip**, **Emoji Palette V2**, **Super Insert Quick Hub**, **Restored Emoji Size Slider & Vibrant Emojis**, **Samsung & Vivo Clipboard History Sync**, and **Automatic Zero-Restart Instant Activation**.
+**wisper** is a sleek, ultra-clean enhancement of Google's flagship keyboard. Tailored for pure productivity, wisper strips away unnecessary bloatware and focuses strictly on powerhouse capabilities: **Gemini Rambler Natural Voice Dictation**, **AI Writing Assistant**, **Modern Spell Checker Suggestion Chips & Grammar Checking**, **Scan Text Camera OCR**, **Screenshot Floating Suggestions**, **Material 3 Expressive Rounded Keys**, **Google Sans Flex Keycap Typography**, **Proactive Undo in Suggestion Strip**, **Emoji Palette V2**, **Super Insert Quick Hub**, **Restored Emoji Size Slider & Vibrant Emojis**, **Samsung & Vivo Clipboard History Sync**, and **Automatic Zero-Restart Instant Activation**.
 
-PixelBoard is engineered with an independent coexistence package ID (`com.akshaykadam.pixelboard`), allowing you to install and use it **side-by-side with your factory Gboard** without replacing, uninstalling, or risking system keyboard stability.
+wisper is engineered with an independent coexistence package ID (`com.akshaykadam.pixelboard`), allowing you to install and use it **side-by-side with your factory Gboard** without replacing, uninstalling, or risking system keyboard stability.
 
 ---
 
 ## Screenshots
 
 <div align="center">
-  <img src="docs/images/showcase.png" alt="PixelBoard Feature Showcase - Rambler Voice Typing, AI Writing Tools & Advanced Settings" width="100%" />
+  <img src="docs/images/showcase.png" alt="wisper Feature Showcase - Rambler Voice Typing, AI Writing Tools & Advanced Settings" width="100%" />
 </div>
 
 ---
@@ -50,7 +50,7 @@ PixelBoard is engineered with an independent coexistence package ID (`com.akshay
 
 - **Gemini "Rambler" Natural Voice Typing**: Speaks naturally by filtering out stutters and filler words (*"um"*, *"ah"*), auto-corrects self-corrections on the fly, auto-punctuates sentences, and includes an ergonomically minimizable voice toolbar.
 - **In-Line AI Writing Assistant**: One-tap proofreading, grammar fixes via interactive suggestion chips, and quick tone rewrite (*Professional*, *Casual*, *Concise*, *Emotive*) across every application.
-- **In-App Updater**: Built-in update checker directly inside Settings to check for new releases, view changelogs, and download & install the latest PixelBoard APKs seamlessly.
+- **In-App Updater**: Built-in update checker directly inside Settings to check for new releases, view changelogs, and download & install the latest wisper APKs seamlessly.
 - **Extended Clipboard Retention**: Customizable retention duration (1 hour, 24 hours, 7 days, 30 days, or Never) with recent unpinned history expanded to 100 clips, floating screenshot chips, and reliable clipboard sync on Samsung One UI & Vivo.
 - **Modern Spell Checker & Grammar Chips**: Interactive clickable suggestion chips, grammar checks, and native red squiggly underlines on misspelled words across all apps.
 - **Scan Text (Camera OCR)**: Direct camera viewfinder tool in the toolbar to capture and extract text directly at your cursor from real-world documents.
@@ -67,8 +67,8 @@ PixelBoard is engineered with an independent coexistence package ID (`com.akshay
 
 Follow these quick steps to activate Google's Gemini-powered **Rambler** natural voice typing:
 
-1. **Open PixelBoard Settings**:
-   - Tap the **Gear (`⚙️`)** icon in the keyboard suggestion strip, or go to Android **Settings > System > Languages & input > On-screen keyboard > PixelBoard**.
+1. **Open wisper Settings**:
+   - Tap the **Gear (`⚙️`)** icon in the keyboard suggestion strip, or go to Android **Settings > System > Languages & input > On-screen keyboard > wisper**.
 2. **Select Rambler Dictation**:
    - Tap **Voice typing**.
    - Under **Dictation type**, choose **Rambler** (switch selection from *Standard* to *Rambler*).
@@ -78,9 +78,9 @@ Follow these quick steps to activate Google's Gemini-powered **Rambler** natural
    > [!TIP]
    > Thanks to recent runtime enhancements, Rambler dictation initializes dynamically on the fly. You can immediately tap the microphone icon without needing to restart Gboard or kill the app process!
 4. **Start Speaking Naturally**:
-   - Tap any text box and hit the **Microphone** icon on PixelBoard.
+   - Tap any text box and hit the **Microphone** icon on wisper.
    - You will see the **"Just speak naturally"** setup screen.
-   - Tap **Get started** and speak freely — PixelBoard handles the cleanup automatically!
+   - Tap **Get started** and speak freely — wisper handles the cleanup automatically!
 
 ---
 
@@ -90,10 +90,10 @@ Google's **AI Writing Tools** allow you to proofread, rephrase, and adjust the t
 
 ### 1. Where to Configure
 - **In Advanced Settings**:
-   - Open **★ Advanced settings** from the bottom of PixelBoard Settings.
+   - Open **★ Advanced settings** from the bottom of wisper Settings.
    - Make sure **Enable AI Writing Tools** and **Support All Keyboards** are toggled **ON** (both ON by default).
 - **In Corrections & Suggestions**:
-   - In PixelBoard Settings, go to **Corrections & suggestions > Writing tools**.
+   - In wisper Settings, go to **Corrections & suggestions > Writing tools**.
    - Ensure **Show writing tools icon in suggestion strip while typing** is enabled.
 
 ### 2. Where to Access While Typing
@@ -109,7 +109,7 @@ Google's **AI Writing Tools** allow you to proofread, rephrase, and adjust the t
 
 ## ⚙️ Advanced Settings Screen
 
-PixelBoard features a clean, minimal preference screen modeled directly after the native Material You Gboard UI:
+wisper features a clean, minimal preference screen modeled directly after the native Material You Gboard UI:
 
 - **Enable AI Writing Tools**: Force-shows the Writing tools icon in the suggestion strip across all apps and text views.
 - **Support All Keyboards**: Extends AI writing assistance beyond English to all keyboard layouts.
@@ -127,35 +127,35 @@ PixelBoard features a clean, minimal preference screen modeled directly after th
 ## Installation Guide
 
 ### Option A: Direct Download on Your Phone (Easiest)
-1. Download [**PixelBoard Stable APK (v1.3.6, 122 MB)**](https://github.com/Akshayykadam/PixelBoard/releases/download/1.3.6/PixelBoard-1.3.6.apk) (or view the [**v1.3.6 Release Page**](https://github.com/Akshayykadam/PixelBoard/releases/tag/1.3.6)).
+1. Download [**wisper Stable APK (v1.3.6, 122 MB)**](https://github.com/spotOmee/wisper/releases/download/1.3.6/wisper-1.3.6.apk) (or view the [**v1.3.6 Release Page**](https://github.com/spotOmee/wisper/releases/tag/1.3.6)).
 2. Tap the downloaded `.apk` in your notification drawer or Downloads folder.
 3. If prompted, toggle **"Allow from this source"** and tap **Install**.
-4. Enable PixelBoard in **Settings > System > Languages & input > On-screen keyboard**.
+4. Enable wisper in **Settings > System > Languages & input > On-screen keyboard**.
 
 ### Option B: Sideload via ADB (For Developers)
 Connect your Android phone via USB with USB Debugging enabled:
 ```bash
-adb install -r PixelBoard-1.3.6.apk
+adb install -r wisper-1.3.6.apk
 adb shell am force-stop com.akshaykadam.pixelboard
 ```
-*(If building from source locally, use `adb install -r output/PixelBoard-1.3.6.apk`)*
+*(If building from source locally, use `adb install -r output/wisper-1.3.6.apk`)*
 
 ### Option C: Patch via Morphe Manager (On-Device Patcher)
 You can patch your stock Gboard APK directly on your phone using **Morphe Manager**:
 1. Install **Morphe Manager** on your Android device.
 2. Get the two required files:
-   - **Patch Bundle**: [**PixelBoard.mpp**](https://github.com/Akshayykadam/PixelBoard/raw/main/patches/PixelBoard.mpp) (or versioned [**patches-1.3.6.mpp**](https://github.com/Akshayykadam/PixelBoard/releases/download/1.3.6/patches-1.3.6.mpp))
+   - **Patch Bundle**: [**wisper.mpp**](https://github.com/spotOmee/wisper/raw/main/patches/wisper.mpp) (or versioned [**patches-1.3.6.mpp**](https://github.com/spotOmee/wisper/releases/download/1.3.6/patches-1.3.6.mpp))
    - **Stock Base APK**: Download the official base bundle from [**APKMirror (Gboard v18.6.3.100 Release)**](https://www.apkmirror.com/apk/google-inc/gboard/gboard-the-google-keyboard-18-6-3-1002251336-release/).
-3. In Morphe Manager, select **Storage**, choose the stock Gboard APK, and load `PixelBoard.mpp` as the patch source.
+3. In Morphe Manager, select **Storage**, choose the stock Gboard APK, and load `wisper.mpp` as the patch source.
 4. Tap **Patch** and then **Install**!
 
 > [!IMPORTANT]
 > **Strict Version Requirement**: The patch bundle **only works on Gboard version 18.6.3.100** (`18.6.3.1002251336-release-arm64-v8a`). It does **not** work on older versions (such as Gboard 18.5 or earlier) because internal flag evaluation classes (`Lodf.g`), text input dispatchers, and resource IDs changed between versions. Patching older versions will cause hooks to miss and mods to not engage. If you do not want to patch manually, install the pre-built [**Signed APK (Option A)**](#option-a-direct-download-on-your-phone-easiest) directly.
 
 > [!TIP]
-> You can also add PixelBoard as a custom auto-updating patch source in Morphe Manager by adding:
+> You can also add wisper as a custom auto-updating patch source in Morphe Manager by adding:
 > ```text
-> https://raw.githubusercontent.com/Akshayykadam/PixelBoard/main/patches-bundle.json
+> https://raw.githubusercontent.com/spotOmee/wisper/main/patches-bundle.json
 > ```
 
 ---
@@ -168,18 +168,18 @@ GBoardMod/
 ├── build.sh                   # 1-click automated build & patching script (100% offline)
 ├── options.json               # Patch configuration profile
 ├── patches/
-│   ├── PixelBoard.mpp         # Pre-bundled offline patch pack (~1.6 MB)
+│   ├── wisper.mpp         # Pre-bundled offline patch pack (~1.6 MB)
 │   └── patches-bundle.json    # Morphe Manager repository metadata
 ├── input/
 │   └── gboard.apk             # Base stock Gboard APK (v18.6.3.100 Release, ~122 MB)
 ├── output/
-│   ├── PixelBoard.apk         # Compiled APK (local build output / hosted on GitHub Releases)
+│   ├── wisper.apk         # Compiled APK (local build output / hosted on GitHub Releases)
 │   └── patching-result.json   # Patch verification report
 ├── tools/
 │   ├── patcher.jar            # Standalone patch compiler CLI (Java 21)
 │   └── patcher-data/          # Signing keystore & local storage
 ├── LICENSE                    # GNU General Public License v3.0
-└── pixelboard-patches/        # PixelBoard patch source repository (Kotlin/Smali)
+└── pixelboard-patches/        # wisper patch source repository (Kotlin/Smali)
     ├── gradle/
     ├── patches/               # Patch definitions & Kotlin bytecode modifications
     └── extensions/            # Extension APK bytecode & runtime hooks
@@ -200,7 +200,7 @@ GBoardMod/
 | **Root Required** | **No** (Standalone side-by-side coexistence) |
 
 > [!CAUTION]
-> **Gboard Version Dependency**: The patch bundle is engineered specifically for **Gboard v18.6.3.100**. Patching Gboard 18.5 or older will cause flag evaluation hooks (`Lodf.g`) and resource bindings to miss, leaving all mods inactive. Always ensure you are patching stock Gboard `18.6.3.1002251336-release-arm64-v8a` or directly download the pre-patched, ready-to-use [**PixelBoard-1.3.6.apk**](https://github.com/Akshayykadam/PixelBoard/releases/download/1.3.6/PixelBoard-1.3.6.apk).
+> **Gboard Version Dependency**: The patch bundle is engineered specifically for **Gboard v18.6.3.100**. Patching Gboard 18.5 or older will cause flag evaluation hooks (`Lodf.g`) and resource bindings to miss, leaving all mods inactive. Always ensure you are patching stock Gboard `18.6.3.1002251336-release-arm64-v8a` or directly download the pre-patched, ready-to-use [**wisper-1.3.6.apk**](https://github.com/spotOmee/wisper/releases/download/1.3.6/wisper-1.3.6.apk).
 
 > [!NOTE]
 > **Google Pixel Device Support**: Advanced on-device inference (**Private AICore / Astrea**) is available **only on Google Pixel devices**. Core **Rambler Natural Voice Typing**, **AI Writing Assistant**, proofreading, and tone rewrite work across all Android devices.
@@ -211,23 +211,23 @@ GBoardMod/
 
 **Akshay Kadam**
 - GitHub: [@Akshayykadam](https://github.com/Akshayykadam)
-- Project Repository: [PixelBoard](https://github.com/Akshayykadam/PixelBoard)
+- Project Repository: [wisper](https://github.com/spotOmee/wisper)
 
 ---
 
 ## Acknowledgements & Credits
 
 Special thanks and sincere appreciation to:
-- **Francisco Valentim Castilho** ([@franciscovalentim](https://github.com/franciscovalentim)) — For diagnosing Rambler voice dictation deactivation on display rotation and contributing the rotation grace period state machine, keeping voice typing alive across orientation changes ([#146](https://github.com/Akshayykadam/PixelBoard/issues/146), [#165](https://github.com/Akshayykadam/PixelBoard/pull/165)).
-- **AnhDuck** ([@AnhDuck](https://github.com/AnhDuck)) — For restoring the Rambler voice toolbar minimize key and contributing TalkBack accessibility labels for voice controls ([#108](https://github.com/Akshayykadam/PixelBoard/pull/108)).
-- **Akash Mahedy** ([@akashmahedy](https://github.com/akashmahedy)) — For diagnosing the settings ID collision on Gboard 18.5+ and contributing the string resource resolution patch preserving the native Personal Dictionary and Physical Keyboard preferences ([#91](https://github.com/Akshayykadam/PixelBoard/issues/91), [#94](https://github.com/Akshayykadam/PixelBoard/pull/94)).
-- **Animesh Ahilya** ([@animeshahilya](https://github.com/animeshahilya)) — For contributing a comprehensive TalkBack accessibility overhaul across settings: merged row semantics (`AccessibleRow`), TalkBack focus restoration across screen rebuilds, heading navigation, spoken warnings, and restart announcements ([#65](https://github.com/Akshayykadam/PixelBoard/pull/65), [#66](https://github.com/Akshayykadam/PixelBoard/pull/66), [#67](https://github.com/Akshayykadam/PixelBoard/pull/67)).
-- **AbdulAziz Hatem** ([@AbdulAziz-Hatem](https://github.com/AbdulAziz-Hatem)) — For contributing complete Arabic (`ar`) localization for all Advanced Settings, AI Writing Tools, and Rambler dictation preferences ([#53](https://github.com/Akshayykadam/PixelBoard/pull/53)).
-- **Mohamed Technology** ([@mohamedtechnology](https://github.com/mohamedtechnology)) — For reporting the TalkBack / screen reader dead zone in the features menu and providing the root cause analysis on window focus and `TYPE_WINDOW_STATE_CHANGED` ([#48](https://github.com/Akshayykadam/PixelBoard/issues/48)).
-- **Andrew Matten** ([@andrewmatten](https://github.com/andrewmatten)) — For pinpointing the Gboard native dictation split readiness gate in `slc.a()` and contributing the verified bytecode patch for fused APKs on Pixel 8 Pro ([#50](https://github.com/Akshayykadam/PixelBoard/issues/50)).
-- **Benestin** ([@Benestinlinson](https://github.com/Benestinlinson)) — For extensive multi-hour testing across releases, diagnosing spacebar auto-correction behavior ([#52](https://github.com/Akshayykadam/PixelBoard/issues/52)), and reporting screenshot chip synchronization and toolbar access point flow ([#44](https://github.com/Akshayykadam/PixelBoard/issues/44), [#47](https://github.com/Akshayykadam/PixelBoard/issues/47)).
-- **Paolo Del Casale** ([@PaoloDelCasale](https://github.com/PaoloDelCasale)) — For deep BatteryStats investigations and candidate fixes resolving background `GoogleAsrService` persistence ([#3](https://github.com/Akshayykadam/PixelBoard/issues/3)) and the offline language pack download loop ([#5](https://github.com/Akshayykadam/PixelBoard/issues/5)).
-- **Alin Cornel** ([@alincornel](https://github.com/alincornel)) — For identifying the root cause and implementing the fix for inline autofill suggestions from password managers (Bitwarden, 1Password, etc.) in the renamed package ([#24](https://github.com/Akshayykadam/PixelBoard/pull/24)).
+- **Francisco Valentim Castilho** ([@franciscovalentim](https://github.com/franciscovalentim)) — For diagnosing Rambler voice dictation deactivation on display rotation and contributing the rotation grace period state machine, keeping voice typing alive across orientation changes ([#146](https://github.com/spotOmee/wisper/issues/146), [#165](https://github.com/spotOmee/wisper/pull/165)).
+- **AnhDuck** ([@AnhDuck](https://github.com/AnhDuck)) — For restoring the Rambler voice toolbar minimize key and contributing TalkBack accessibility labels for voice controls ([#108](https://github.com/spotOmee/wisper/pull/108)).
+- **Akash Mahedy** ([@akashmahedy](https://github.com/akashmahedy)) — For diagnosing the settings ID collision on Gboard 18.5+ and contributing the string resource resolution patch preserving the native Personal Dictionary and Physical Keyboard preferences ([#91](https://github.com/spotOmee/wisper/issues/91), [#94](https://github.com/spotOmee/wisper/pull/94)).
+- **Animesh Ahilya** ([@animeshahilya](https://github.com/animeshahilya)) — For contributing a comprehensive TalkBack accessibility overhaul across settings: merged row semantics (`AccessibleRow`), TalkBack focus restoration across screen rebuilds, heading navigation, spoken warnings, and restart announcements ([#65](https://github.com/spotOmee/wisper/pull/65), [#66](https://github.com/spotOmee/wisper/pull/66), [#67](https://github.com/spotOmee/wisper/pull/67)).
+- **AbdulAziz Hatem** ([@AbdulAziz-Hatem](https://github.com/AbdulAziz-Hatem)) — For contributing complete Arabic (`ar`) localization for all Advanced Settings, AI Writing Tools, and Rambler dictation preferences ([#53](https://github.com/spotOmee/wisper/pull/53)).
+- **Mohamed Technology** ([@mohamedtechnology](https://github.com/mohamedtechnology)) — For reporting the TalkBack / screen reader dead zone in the features menu and providing the root cause analysis on window focus and `TYPE_WINDOW_STATE_CHANGED` ([#48](https://github.com/spotOmee/wisper/issues/48)).
+- **Andrew Matten** ([@andrewmatten](https://github.com/andrewmatten)) — For pinpointing the Gboard native dictation split readiness gate in `slc.a()` and contributing the verified bytecode patch for fused APKs on Pixel 8 Pro ([#50](https://github.com/spotOmee/wisper/issues/50)).
+- **Benestin** ([@Benestinlinson](https://github.com/Benestinlinson)) — For extensive multi-hour testing across releases, diagnosing spacebar auto-correction behavior ([#52](https://github.com/spotOmee/wisper/issues/52)), and reporting screenshot chip synchronization and toolbar access point flow ([#44](https://github.com/spotOmee/wisper/issues/44), [#47](https://github.com/spotOmee/wisper/issues/47)).
+- **Paolo Del Casale** ([@PaoloDelCasale](https://github.com/PaoloDelCasale)) — For deep BatteryStats investigations and candidate fixes resolving background `GoogleAsrService` persistence ([#3](https://github.com/spotOmee/wisper/issues/3)) and the offline language pack download loop ([#5](https://github.com/spotOmee/wisper/issues/5)).
+- **Alin Cornel** ([@alincornel](https://github.com/alincornel)) — For identifying the root cause and implementing the fix for inline autofill suggestions from password managers (Bitwarden, 1Password, etc.) in the renamed package ([#24](https://github.com/spotOmee/wisper/pull/24)).
 - **JasonWu** — The pioneering author of the original Gboard patch project whose foundational reverse-engineering research and Smali patch framework made this mod possible.
 - **The ReVanced & Morphe Open-Source Android Modding Communities** — For the open-source decompilation toolchains, patch compilers, and continuous ecosystem contributions.
 
@@ -238,7 +238,7 @@ Special thanks and sincere appreciation to:
 > [!CAUTION]
 > **PLEASE READ THIS LEGAL DISCLAIMER CAREFULLY BEFORE DOWNLOADING, COMPILING, OR USING THIS SOFTWARE.**
 
-1. **Non-Affiliation & Endorsement**: **PixelBoard** is an independent, non-commercial open-source modification project developed for interoperability and accessibility research. It is **not** affiliated with, sponsored by, authorized by, maintained by, or in any way associated with **Google LLC**, **Alphabet Inc.**, or any of their subsidiaries.
+1. **Non-Affiliation & Endorsement**: **wisper** is an independent, non-commercial open-source modification project developed for interoperability and accessibility research. It is **not** affiliated with, sponsored by, authorized by, maintained by, or in any way associated with **Google LLC**, **Alphabet Inc.**, or any of their subsidiaries.
 2. **Intellectual Property & Trademarks**: "Google", "Gboard", "Pixel", "Android", "Gemini", and all related logos, product names, and brand identifiers are trademarks or registered trademarks of Google LLC. All trademarks, service marks, and trade names referenced herein remain the property of their respective owners. Their mention in this repository is strictly for product identification and nominative fair-use purposes.
 3. **Personal & Educational Use Only**: This software, including all patch definitions and compiled binaries, is provided solely for **personal education, private study, and experimental research**. It is not intended for commercial distribution or monetization.
 4. **No Warranty ("AS IS")**: This software is distributed under an open-source license on an **"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND**, either express or implied, including, without limitation, any implied warranties of merchantability, fitness for a particular purpose, non-infringement, or system stability.

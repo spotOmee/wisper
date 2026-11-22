@@ -17,7 +17,7 @@ public class PixelBoardUpdateFeatureTest {
     @Test
     public void featureMetadataMatchesExpectedTitles() {
         PixelBoardUpdateFeature feature = new PixelBoardUpdateFeature(null);
-        Assert.assertEquals("PixelBoard updates", feature.getEntryTitle());
+        Assert.assertEquals("wisper updates", feature.getEntryTitle());
         Assert.assertTrue(feature.isAvailable(null));
         Assert.assertNotNull(feature.getEntrySummary());
     }
@@ -38,7 +38,7 @@ public class PixelBoardUpdateFeatureTest {
 
         GboardPatchesSettingsContract.Screen screen = feature.buildScreen(host);
         Assert.assertNotNull(screen);
-        Assert.assertEquals("PixelBoard updates", screen.getToolbarTitle());
+        Assert.assertEquals("wisper updates", screen.getToolbarTitle());
         Assert.assertEquals("Updates", screen.getHeaderTitle());
         Assert.assertFalse(screen.isRestartActionVisible());
         Assert.assertTrue(screen.getStatusBlocks().isEmpty());

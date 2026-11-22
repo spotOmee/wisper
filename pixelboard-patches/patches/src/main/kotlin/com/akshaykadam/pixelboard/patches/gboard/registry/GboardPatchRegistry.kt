@@ -107,8 +107,9 @@ val gboardPackageRenamePatch = gboardPublicResourcePatch(
 
     val appDisplayName = stringOption(
         key = "app_display_name",
-        default = "PixelBoard",
+        default = "wisper",
         values = linkedMapOf(
+            "wisper" to "wisper",
             "PixelBoard" to "PixelBoard",
             "Gboard" to "Gboard",
             "Gboard Dev" to "Gboard Dev",

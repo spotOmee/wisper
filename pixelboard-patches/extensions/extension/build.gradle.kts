@@ -77,7 +77,7 @@ android {
         buildConfigField(
             "String",
             "PATCH_REPOSITORY_URL",
-            "\"https://github.com/Akshayykadam/PixelBoard\""
+            "\"https://github.com/spotOmee/wisper\""
         )
         buildConfigField("String", "PATCH_VERSION", "\"${project.version}\"")
     }
@@ -285,10 +285,10 @@ tasks.named("syncExtension") {
     doLast {
         val extensionDex = layout.buildDirectory.asFileTree.matching {
             include("**/extensions/pixelboard-patches.rve")
-        }.singleOrNull() ?: throw GradleException("PixelBoard extension dex was not generated")
+        }.singleOrNull() ?: throw GradleException("wisper extension dex was not generated")
         val dexText = String(extensionDex.readBytes(), StandardCharsets.ISO_8859_1)
         check(!dexText.contains("Lcom/android/tools/r8/RecordTag;")) {
-            "PixelBoard extension dex contains record classes without the required D8 global synthetic"
+            "wisper extension dex contains record classes without the required D8 global synthetic"
         }
     }
 }

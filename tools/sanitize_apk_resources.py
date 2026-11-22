@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-PixelBoard APK Resource Sanitizer
+wisper APK Resource Sanitizer
 Restores pristine binary XML resources from the input APK whenever Morphe's
 ResourceIdProcessor or ARSCLib corrupts attributes (e.g. expanding '?' to '?attr/'
 or adding backslashes like '\\?123').
-Then re-aligns with zipalign and signs with apksigner using the PixelBoard keystore.
+Then re-aligns with zipalign and signs with apksigner using the wisper keystore.
 """
 
 import sys
@@ -57,11 +57,15 @@ PRESERVED_XML_PATTERNS = {
 
 PIXELBOARD_MARKERS = [
     b'pixelboard',
+    b'wisper',
+    b'wisper_patches',
+    b'wisperpatches',
     b'gboardpatches',
     b'gboard_patches',
     b'akshaykadam',
     b'GboardPatchesSettingsActivity',
     b'PixelBoardUpdateActivity',
+    b'WisperUpdateActivity',
 ]
 
 def resolve_target_resource_paths(input_apk, aapt2_path):
@@ -115,13 +119,13 @@ def sanitize_apk(target_apk, input_apk, keystore_path):
         in_names = set(zin.namelist())
         for name in zout.namelist():
             if name.endswith('.xml'):
-                # Always preserve newly added PixelBoard XML resources
+                # Always preserve newly added wisper XML resources
                 if name not in in_names:
                     continue
 
                 out_data = zout.read(name)
 
-                # Always preserve intentionally modified PixelBoard XML resources
+                # Always preserve intentionally modified wisper XML resources
                 if name in all_preserved_patterns:
                     continue
 

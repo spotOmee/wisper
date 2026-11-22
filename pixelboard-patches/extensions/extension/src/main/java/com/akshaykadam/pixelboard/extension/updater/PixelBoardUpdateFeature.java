@@ -113,7 +113,7 @@ public final class PixelBoardUpdateFeature implements GboardPatchesSettingsContr
                         ? "Update Available: v" + releaseInfo.getVersion()
                         : GboardSettingsText.get(context, R.string.gboard_patches_update_status_available_title);
                 String updateSummary = releaseInfo != null
-                        ? "PixelBoard v" + releaseInfo.getVersion() + " is ready for download ("
+                        ? "wisper v" + releaseInfo.getVersion() + " is ready for download ("
                                 + releaseInfo.getFormattedFileSize() + ").\nPublished: "
                                 + releaseInfo.getFormattedDate()
                         : GboardSettingsText.get(context, R.string.gboard_patches_update_status_available_summary);
@@ -251,7 +251,7 @@ public final class PixelBoardUpdateFeature implements GboardPatchesSettingsContr
         } else {
             changelogRelease = new ReleaseInfo(
                     installedVersion,
-                    "PixelBoard v" + installedVersion,
+                    "wisper v" + installedVersion,
                     getDefaultChangelog(),
                     "",
                     PixelBoardUpdateManager.GITHUB_REPO_RELEASES_WEB,
@@ -291,7 +291,7 @@ public final class PixelBoardUpdateFeature implements GboardPatchesSettingsContr
                 () -> PixelBoardUpdateManager.openReleasePage(context, finalRel.getHtmlUrl())));
 
         if (!changelogRows.isEmpty()) {
-            String sectionTitle = "PixelBoard v" + changelogRelease.getVersion();
+            String sectionTitle = "wisper v" + changelogRelease.getVersion();
             String sectionDesc = (status == PixelBoardUpdateManager.Status.UPDATE_AVAILABLE)
                     ? "Highlights and improvements in the upcoming update"
                     : "Highlights and key improvements in this release";

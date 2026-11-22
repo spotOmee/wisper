@@ -141,8 +141,9 @@ class GboardPackageRenamePatchContractTest {
         const val APP_DISPLAY_NAME_OPTION_KEY = "app_display_name"
         const val APP_DISPLAY_NAME_OPTION_TITLE = "App Name"
         const val APP_DISPLAY_NAME_OPTION_DESCRIPTION = ""
-        const val APP_DISPLAY_NAME_DEFAULT = "PixelBoard"
+        const val APP_DISPLAY_NAME_DEFAULT = "wisper"
         val APP_DISPLAY_NAME_PRESETS = linkedMapOf(
+            "wisper" to "wisper",
             "PixelBoard" to "PixelBoard",
             "Gboard" to "Gboard",
             "Gboard Dev" to "Gboard Dev",
