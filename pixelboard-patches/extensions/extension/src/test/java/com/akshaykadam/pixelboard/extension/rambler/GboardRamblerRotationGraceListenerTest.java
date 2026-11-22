@@ -34,7 +34,8 @@ public final class GboardRamblerRotationGraceListenerTest {
         // Tracking starts on an early flag read, before Gboard ever reads the delay.
         GboardRamblerRotationGrace.ensureListening(context);
         Assert.assertNotNull(context.callbacks);
-        Assert.assertEquals(0L, GboardRamblerRotationGrace.deactivationDelayMs());
+        Assert.assertEquals(GboardRamblerRotationGrace.BASELINE_DEACTIVATION_DELAY_MS,
+                GboardRamblerRotationGrace.deactivationDelayMs());
 
         now[0] = 5_000L;
         context.callbacks.onConfigurationChanged(rotated(context.getResources().getConfiguration()));

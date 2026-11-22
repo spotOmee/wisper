@@ -129,7 +129,7 @@ public class GboardCandidateEmojiRuntimeTest {
         assertEquals(0, GboardCandidateEmojiRuntime.getCandidateSlot(candidates.get(0)));
 
         assertEquals("😂", candidates.get(1).a.toString());
-        assertEquals(2, GboardCandidateEmojiRuntime.getCandidateSlot(candidates.get(1)));
+        assertEquals(1, GboardCandidateEmojiRuntime.getCandidateSlot(candidates.get(1)));
     }
 
     @Test
